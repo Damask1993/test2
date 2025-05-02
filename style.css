@@ -348,7 +348,9 @@ input[type=number] {
     .menu-order.order-active .quantity{
         transform: translateY(0px); 
         z-index: 1;
-
+    }
+    .increase, .decrease{
+        touch-action: manipulation;
     }
 
 }
